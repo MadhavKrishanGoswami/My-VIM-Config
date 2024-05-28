@@ -1,4 +1,3 @@
-# My-VIM-Config
 ### Neovim Keymap Cheatsheet
 
 #### General Commands
@@ -13,6 +12,7 @@
 - **Split window horizontally**: `<leader>sh` (Space + s + h)
 - **Equalize split window sizes**: `<leader>se` (Space + s + e)
 - **Close current split window**: `<leader>sx` (Space + s + x)
+- **Maximize/minimize current split**: `<leader>sm` (Space + s + m)
 
 #### Tab Management
 - **Open new tab**: `<leader>to` (Space + t + o)
@@ -33,9 +33,6 @@
 - **Search for string in current directory**: `<leader>fs` (Space + f + s)
 - **Search for string under cursor in current directory**: `<leader>fc` (Space + f + c)
 - **Find TODOs**: `<leader>ft` (Space + f + t)
-
-#### Split Management
-- **Maximize/minimize current split**: `<leader>sm` (Space + s + m)
 
 #### Code Suggestions (cmp)
 - **Previous suggestion**: `<C-k>` (Ctrl + k)
@@ -71,13 +68,6 @@
 #### Formatting
 - **Format selected range or buffer**: `<leader>mp` (Space + m + p)
 
-#### LazyGit Integration
-- **Open LazyGit**: `<leader>lg` (Space + l + g)
-
-##### LazyGit Shortcuts
-- **Stage changes**: `a`
-- **Commit changes**: `c`
-
 #### Line Navigation
 - **Move down by relative line number**: `j<number>`
 - **Move up by relative line number**: `k<number>`
@@ -93,3 +83,27 @@
 - **Send selected to quickfix list**: `<C-q>` (Ctrl + q)
 - **Open with Trouble**: `<C-t>` (Ctrl + t)
 
+### LazyGit Cheat Sheet: Essential Commands
+
+#### General Navigation
+- **Move down/up in the list**: `j/k`
+- **Toggle view (files, branches, commits, etc.)**: `tab`
+- **Quit LazyGit**: `q`
+
+#### Branches Panel
+- **Checkout branch**: `c`
+- **Create new branch**: `n`
+- **Delete branch**: `D`
+- **Merge branch**: `m`
+- **Rebase current branch onto selected branch**: `r`
+
+#### Commits Panel
+- **View commit details**: `v`
+- **Revert commit**: `r`
+- **Reset to this commit**: `R`
+
+#### Staging
+- **Stage file/selected lines**: `s`
+- **Stage all changes**: `S`
+- **Unstage file/selected lines**: `u`
+- **Unstage all changes**: `U`
