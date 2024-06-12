@@ -43,6 +43,21 @@
 - **Close completion window**: `<C-e>` (Ctrl + e)
 - **Confirm selection**: `<CR>` (Enter)
 
+#### LSP Keymaps
+- **Show LSP references**: `gR` (g + R)
+- **Go to declaration**: `gD` (g + D)
+- **Show LSP definitions**: `gd` (g + d)
+- **Show LSP implementations**: `gi` (g + i)
+- **Show LSP type definitions**: `gt` (g + t)
+- **See available code actions**: `<leader>ca` (Space + c + a) (in normal and visual mode)
+- **Smart rename**: `<leader>rn` (Space + r + n)
+- **Show buffer diagnostics**: `<leader>D` (Space + D)
+- **Show line diagnostics**: `<leader>d` (Space + d)
+- **Go to previous diagnostic**: `[d` ([ + d)
+- **Go to next diagnostic**: `]d` (] + d)
+- **Show documentation for what is under cursor**: `K`
+- **Restart LSP**: `<leader>rs` (Space + r + s)
+
 #### Commenting
 - **Comment out a line**: `gcc`
 - **Comment out a block**: `gc`
@@ -101,6 +116,12 @@
 - **View commit details**: `v`
 - **Revert commit**: `r`
 - **Reset to this commit**: `R`
+
+#### Staging
+- **Stage file/selected lines**: `s`
+- **Stage all changes**: `S`
+- **Unstage file/selected lines**: `u`
+- **Unstage all changes**: `U`
 
 #### Staging
 - **Stage file/selected lines**: `s`
