@@ -58,6 +58,10 @@
 - **Show documentation for what is under cursor**: `K`
 - **Restart LSP**: `<leader>rs` (Space + r + s)
 
+#### Rust Tools Keymaps
+- **Show Rust hover actions**: `<leader>k` (Space + k)
+- **Show Rust code action group**: `<leader>a` (Space + a)
+
 #### Commenting
 - **Comment out a line**: `gcc`
 - **Comment out a block**: `gc`
@@ -116,12 +120,6 @@
 - **View commit details**: `v`
 - **Revert commit**: `r`
 - **Reset to this commit**: `R`
-
-#### Staging
-- **Stage file/selected lines**: `s`
-- **Stage all changes**: `S`
-- **Unstage file/selected lines**: `u`
-- **Unstage all changes**: `U`
 
 #### Staging
 - **Stage file/selected lines**: `s`
